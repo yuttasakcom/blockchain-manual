@@ -73,8 +73,19 @@ contract Inbox { <--- Defines a new contract
   * pure
   * payable
 
-Wei
+* Wei
 
 * gasPrice 300, Used 14gas
 * Totol cost = 300 wei/gas x 14 gas = 300x14 wei = 4,200 wei
+
+* Truffle
+  * Contract Creation
+  * Local Testing
+  * Deployment
+  -> Rinkeby
+
+  |_ Under going rapid development
+  |_ Some things don't work well
+  |_ Some things don't work at all
+  |_ Stuff breaks - patience is required
 ```
