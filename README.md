@@ -1,6 +1,6 @@
 # Blockchain Manual
 
-## คำถามเกี่ยวกับ Blockchain
+## คำถามเกี่ยวกับ Blockchain ที่พบเห็นอยู่บ่อยๆ
 
 - Blockchain คืออะไร?
 - Blockchain กับ Cryptocurrency ต่างกันอย่างไร?
@@ -14,7 +14,7 @@
 - Difficulty คืออะไร?
 - Nonce ใน Block ใช้ทำอะไร
 - Hash Pointer คืออะไร
-- ”51 % Attack” คืออะไร
+- 51 % Attack คืออะไร
 - Sybil Attack คืออะไร
 - จงอธิบาย Public Key, Private Key และ Signature
 - ทำไม Hardware wallet ถึงปลอดภัยกว่า Online Wallet ในการส่งเงิน?
