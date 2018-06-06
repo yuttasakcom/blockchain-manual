@@ -1,91 +1,29 @@
 # Blockchain Manual
 
-## Note
+## คำถามเกี่ยวกับ Blockchain
 
-```
-Blockchain คือ
-
-Bitcoin คือ
-
-Ethereum คือ
-
-web3.js คือ
-
-* Metamask
-  * Account Address (Hex)
-  * Public Key (Hex)
-  * Private Key (Hex)
-    Mist Browser
-
-* Rinkeby Test Network
-  * rinkey-faucet.com
-  * https://faucet.rinkeby.io
-
-* Transaction
-  * nonce -> How many times the sender has sent a transaction
-  * to -> Address of account this money is goint to
-  * value -> Amount of ether to send to the target address
-  * gasPrice -> Amount of ether the sender is willing to pay per unit gas to get this transaction proccessed
-  * startGas/gasLimit -> Units of gas that this transaction can consume
-  * v/r/s -> Cryptographic pieces of data that can be used to generate the senders account address. Generated from the sender's private key
-
-* Node
-
-* Block
-  * Transaction
-
-* Ethereum Average Block Time Chart
-  * https://etherscan.io/chart/blocktime
-
-* Smart Contack
-  * balance -> Amount of ether this account owns
-  * storage -> Data storage for this contract
-  * code -> Raw machine code for this contract
-
-* Solidity
-  * https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js
-
-=== code ===
-pragma solidity ^0.4.17; <--- Specifies the version of Solidity that our code is written with
-
-contract Inbox { <--- Defines a new contract
-    string public message;
-
-    constructor(string initalMessage) public {
-        message = initalMessage;
-    }
-
-    function setMessage(string newMessage) public {
-        message = newMessage;
-    }
-
-    function getMessage() public view returns (string) { <--- function name, function type, return types
-        return message;
-    }
-}
-=============
-
-* function types
-  * public
-  * private
-  * view
-  * constant
-  * pure
-  * payable
-
-* Wei
-
-* gasPrice 300, Used 14gas
-* Totol cost = 300 wei/gas x 14 gas = 300x14 wei = 4,200 wei
-
-* Truffle
-  * Contract Creation
-  * Local Testing
-  * Deployment
-  -> Rinkeby
-
-  |_ Under going rapid development
-  |_ Some things don't work well
-  |_ Some things don't work at all
-  |_ Stuff breaks - patience is required
-```
+- Blockchain คืออะไร?
+- Blockchain กับ Cryptocurrency ต่างกันอย่างไร?
+- เราสามารถประยุกต์ใช้ Private Blockchain แก้ปัญหาอะไรได้บ้าง จงยกตัวอย่างในโลกปัจจุบัน
+- เราสามารถประยุกต์ใช้ Public Blockchain แก้ปัญหาอะไรได้บ้าง จงยกตัวอย่างในโลกปัจจุบัน
+- ปัญหาอะไรที่ไม่ควรแก้ไขด้วย Blockchain?
+- ข้อเสียของ Blockchain คืออะไร?
+- Consensus คืออะไร?
+- Proof of work คืออะไร?
+- Hash คืออะไร?
+- Difficulty คืออะไร?
+- Nonce ใน Block ใช้ทำอะไร
+- Hash Pointer คืออะไร
+- ”51 % Attack” คืออะไร
+- Sybil Attack คืออะไร
+- จงอธิบาย Public Key, Private Key และ Signature
+- ทำไม Hardware wallet ถึงปลอดภัยกว่า Online Wallet ในการส่งเงิน?
+- จงบอกความแตกต่างระหว่าง Online Wallet และ Exchange Wallet
+- จงยกตัวอย่าง Cryptocurrency ที่ท่านชอบ ที่ไม่ใช่ Bitcoin และ Ethereum พร้อมอธิบาย
+- Bitcoin ถูกจำกัดให้มีแค่ 21 ล้านเหรียญได้อย่างไร
+- Hardfork คืออะไร แตกต่างจาก Softfork อย่างไร
+- Bitcoin คืออะไร
+- Ethereum คืออะไร
+- web3.js คืออะไร ใช้ทำอะไร
+- Metamask คืออะไร
+- Test Network คืออะไร
