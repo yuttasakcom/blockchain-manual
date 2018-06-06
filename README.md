@@ -22,8 +22,3 @@
 - จงยกตัวอย่าง Cryptocurrency ที่ท่านชอบ ที่ไม่ใช่ Bitcoin และ Ethereum พร้อมอธิบาย
 - Bitcoin ถูกจำกัดให้มีแค่ 21 ล้านเหรียญได้อย่างไร
 - Hardfork คืออะไร แตกต่างจาก Softfork อย่างไร
-- Bitcoin คืออะไร
-- Ethereum คืออะไร
-- web3.js คืออะไร ใช้ทำอะไร
-- Metamask คืออะไร
-- Test Network คืออะไร
