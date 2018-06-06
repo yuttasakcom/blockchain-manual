@@ -22,3 +22,21 @@
 - จงยกตัวอย่าง Cryptocurrency ที่ท่านชอบ ที่ไม่ใช่ Bitcoin และ Ethereum พร้อมอธิบาย
 - Bitcoin ถูกจำกัดให้มีแค่ 21 ล้านเหรียญได้อย่างไร
 - Hardfork คืออะไร แตกต่างจาก Softfork อย่างไร
+
+## What is Blockchain
+
+```
+เครือข่ายการจัดเก็บข้อมูลแบบกระจาย
+|_ Node
+  |_ Block <-- Block แรกที่เกิดขึ้นมา จะเรียกว่า Genesis Block
+    |_ Data
+    |_ Prev.Hash
+    |_ Hash
+
+สิ่งที่เกี่ยวข้องกับ Blockchain
+- Mining
+- Consensus Protocol
+- Hash Cryptogrphy
+- Immutable Ledger
+- Distributed P2P Network
+```
